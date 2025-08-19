@@ -1,0 +1,163 @@
+/* body{
+  background-color: aliceblue;
+}
+
+.container {
+  background-color: rgba(190, 190, 190, 0.888);
+  text-align: left;
+  height: 300px;
+  font-size: 20px;
+  color: rgb(81, 81, 81);
+  padding-inline: 40px;
+  padding-top: 15px;
+}
+
+.paragraph {
+  color: rgb(81, 81, 81);
+  text-align: left;
+  width: 60rem;
+}
+
+.click-me {
+  height: 50px;
+  width: 120px;
+  color: antiquewhite;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(53, 53, 53);
+}
+
+.img-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-content: center;
+  padding-inline: 30px;
+}
+ 
+.img-container img {
+  height: 400px;
+  width: 250px;
+  background-color: rgb(234, 234, 234);
+  margin-block: 30px;
+  padding-block: 20px;
+} */
+
+/* table,
+th,
+td {
+  border: 1px, solid, #96d4d4;
+  border-collapse: collapse;
+}
+
+table {
+  width: 70%;
+}
+
+tr:nth-child(even) {
+  background-color: #96d4d4;
+} */
+
+body {
+  background-color: #f5d4ec;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+  background: linear-gradient(90deg, #715a61, #641d64);
+  width: 50%;
+  height: 400px;
+  transform: translateY(20%);
+  color: #f2e0ed;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+form a{
+  color: #f2e0ed;
+  text-decoration: none;
+}
+
+form a:hover{
+  text-decoration: underline;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  margin-block: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: #010321;
+  color: #f2e0ed;
+  border-radius: 5px;
+  font-size: larger;
+  height: 40px;
+  width: 300px;
+  border: none;
+}
+
+.checkbox {
+  display: flex;
+  align-items: left;
+  width: 70%;
+  margin-block: 10px;
+}
+
+.checkbox label {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.checkbox input {
+  margin-inline: 5px;
+  width: 20px;
+  height: 20px;
+  margin-block: 5px;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 3rem;
+}
+
+nav img{
+  height: 50px;
+  width: 50px;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "smooch sans";
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+input:placeholder-shown {
+  color: gray;
+  font-family: "smooch sans";
+  font-size: 1rem;
+}
